@@ -1,17 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  students: [
-    {
-      id: "",
-      name: "",
-      rollNumber: "",
-      className: "",
-      subject: "",
-      marks: "",
-      examType: "",
-    },
-  ],
+  students: [],
 };
 
 const studentSlice = createSlice({
